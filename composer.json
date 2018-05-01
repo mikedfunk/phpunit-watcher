@@ -1,4 +1,11 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikedfunk/phpunit-watcher.git"
+
+        }
+    ],
     "name": "spatie/phpunit-watcher",
     "description": "Automatically rerun PHPUnit tests when source code changes",
     "keywords": [
@@ -19,9 +26,9 @@
         "php": "^7.0",
         "clue/stdio-react": "^1.0",
         "jolicode/jolinotif": "^2.0",
-        "symfony/console": "^3.0|^4.0",
-        "symfony/process": "^3.0|^4.0",
-        "symfony/yaml": "^3.0|^4.0",
+        "symfony/console": "3.4.9",
+        "symfony/process": "3.4.9",
+        "symfony/yaml": "3.4.9",
         "yosymfony/resource-watcher": "^1.2"
     },
     "require-dev": {
